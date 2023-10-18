@@ -1,0 +1,348 @@
+body{
+	background-image: url("../images/image.jpg");
+	background-repeat:no-repeat;
+	background-size: 2000px 1500px;
+	float:center;
+}
+.container{
+	margin:auto;
+	..border:1px solid blue;
+	width: 1000px;
+	height: 1200px;
+}
+.headercon{
+	width: 1000px;
+	height: 100px;
+
+}
+.logo{
+	..background: url("../images/Logo.jpg") no-repeat center;
+	width: 300px;
+	height:110px;
+	float: left;
+	padding-left: 0px;
+}
+.headright {
+	width: 700px;
+	background: url("../images/cakes.jpg");
+	height: 110px;
+	float: right;
+}
+.headright small{
+	float: right;
+	font-size: 16px;
+	color: blue;	
+}
+.headright label{
+	float: right;
+	font-size: 18px;
+	color: #800000;
+}
+.navbg{
+	width: 1000px;
+	background: url("../images/back.jpg") repeat-x scroll center top;
+	height: 50px;
+}
+.nav_inside ul{
+	margin:0;
+	padding: 0;
+	display: inline-blocks;
+	height: 60px;
+	font-size: 18px;
+	font-family: bitter;
+}
+.nav_inside ul li{
+display: inline-block;
+padding: 0 20px;
+color: pink;
+position: relative;
+margin: 0 auto;
+}
+.nav_inside ul li a{
+	text-decoration: none;
+	color:blue;
+	line-height: 32px;
+	margin: 0 auto;
+	display: inline-block; 
+	float: left;
+}
+.nav_inside a:hover{
+	
+	background-color: white;
+	text-transform: uppercase;
+}
+.flashcon{
+	margin: 0 auto;
+	width: 1000px;
+	height: 350px;
+	
+}
+.midboxcon{
+	margin: 0 auto;
+	width: 1000px;
+	height: 200px;
+	font-size: 18px;
+	Font-family: Arial;
+	color:blue;
+	text-align:center;
+
+}
+.midbox1{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	--background: url("../images/cake3.jpg");
+	float: left;
+}
+.midbox2{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	--background: url("../images/past1.jpg");
+	float: left;
+}
+.midbox3{
+	margin: 0 auto;
+	width: 334px;
+	height: 187px;
+	float: right;
+	--background: url("../images/past2.jpg");
+}
+.midbox1 a:hover{
+	
+	background-color: pink;
+	text-transform: uppercase;
+}
+.midbox2 a:hover{
+	
+	background-color: pink;
+	text-transform: uppercase;
+}
+.midbox3 a:hover{
+	
+	background-color: pink;
+	text-transform: uppercase;
+}
+.about-section{
+	text-align:center;
+	color:#0000FF;
+}
+.services-section{
+	text-align:center;
+	color:#0000FF;
+}
+.offers-section{
+	
+	margin: 0 auto;
+	width: 700px;
+	height: 100px;
+	font-size: 18px;
+	Font-family: Arial;
+	color:blue;
+	text-align: center;
+	color:#0000FF;
+}
+.offers-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/like.jpg") no-repeat;
+	float: left;
+	color:#0000FF;
+}
+.offer-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/past1.jpg") no-repeat;
+	float: left;
+	color:#0000FF;
+}
+.offer1-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/deli.jpg") no-repeat;
+	float: left;
+	color:#0000FF;	
+}
+.offer-description{
+	text-align:center;
+}
+.offer-description1{
+	text-align:center;
+}
+.offer-description2{
+	text-align:center;
+}
+.types-section{
+	text-align: center;
+	margin: 0 auto;
+	width: 700px;
+	height: 100px;
+	font-size: 18px;
+	Font-family: Arial;
+	color:blue;
+}
+.type-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/birth.jpg") no-repeat;
+	float: left;
+}
+.type1-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/wed.jpg") no-repeat;
+	float: left;
+}
+.type2-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/chris.jpg") no-repeat;
+	float: left;
+}
+.description{
+	text-align: center;
+}
+.pastry-section{
+	text-align: center;
+    margin: 0 auto;
+	width: 700px;
+	height: 100px;
+	font-size: 18px;
+	Font-family: Arial;
+	color:#800080;
+}
+.pastry-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/pa.jpg") no-repeat;
+	float: left;
+	color:#800080;
+}
+.pastry1-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/pa1.jpg") no-repeat;
+	float: left;
+	color:white;
+}
+.pastry2-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/pa2.jpg") no-repeat;
+	float: left;
+	color:#800080;
+}
+.description{
+	text-align: center;
+}
+.Flavors-section{
+	text-align: center;
+    margin: 0 auto;
+	width: 700px;
+	height: 100px;
+	font-size: 18px;
+	Font-family: Arial;
+	color: #6495ED;
+}
+.Flavor-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/st.jpg") no-repeat;
+	float: left;
+	color: #6495ED;
+}
+.Flavor1-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/v.jpg") no-repeat;
+	float: left;
+	color: #6495ED;
+}
+.Flavor2-item{
+	margin: 0 auto;
+	width: 333px;
+	height: 187px;
+	background: url("../images/ch.jpg") no-repeat;
+	float: left;
+	color: #6495ED;
+}
+.description{
+	text-align: center;
+}
+         
+.contact-container {
+       max-width: 600px;
+        margin: 0 auto;
+       padding: 10px;
+}
+input[type="text"], textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        }
+ .submit-button {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .submit-button:hover {
+            background-color: #ff8800;
+        }
+		
+		/*.footer{
+			width: 1000px;
+			height:100px;
+			margin: auto;
+			float:left;
+			background-color:none;
+			text-align:center;
+			padding-top: 200px;
+		}*/
+.copyright {
+text-align: center;
+}
+.footer-nav {
+    width: 1000px;
+			height:100px;
+			margin: auto;
+			float:left;
+			background-color:none;
+			text-align:center;
+			padding-top: 200px;
+		}
+
+.footer-nav li {
+    display: inline;
+    margin-right: 10px; /* Adjust the spacing between links */
+}
+
+.footer-nav li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #000; /* Set the color as needed */
+    font-weight: bold; /* Add desired font styles */
+}
+.footer-nav a:hover{
+	
+	background-color: pink;
+	text-transform: uppercase;
+}
+.desclaimer{
+	text-align: center;
+}
